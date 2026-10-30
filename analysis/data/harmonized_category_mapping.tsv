@@ -1,0 +1,34 @@
+cohort	original_label	coarse
+primary_CosMx	Proliferating Proximal Tubule	Other epithelial
+primary_CosMx	Distinct proximal tubule 1	Other epithelial
+primary_CosMx	Principal cell	Other epithelial
+primary_CosMx	Epithelial progenitor cell	Other epithelial
+primary_CosMx	Connecting tubule	Other epithelial
+primary_CosMx	CD4 T cell	Immune
+primary_CosMx	Fibroblast	Stromal
+primary_CosMx	Ascending vasa recta endothelium	Endothelial
+primary_CosMx	MNP-c/dendritic cell	Immune
+primary_CosMx	NKT cell	Immune
+primary_CosMx	Myofibroblast	Stromal
+primary_CosMx	Type A intercalated cell	Other epithelial
+primary_CosMx	Podocyte	Glomerular epithelial
+primary_CosMx	Plasmacytoid dendritic cell	Immune
+primary_CosMx	Peritubular capillary endothelium 2	Endothelial
+primary_CosMx	Pelvic epithelium	Other epithelial
+primary_CosMx	B cell	Immune
+primary_CosMx	Thick ascending limb of Loop of Henle	Other epithelial
+primary_CosMx	Descending vasa recta endothelium	Endothelial
+primary_CosMx	Distinct proximal tubule 2	Other epithelial
+primary_CosMx	NK cell	Immune
+primary_CosMx	Glomerular endothelium	Endothelial
+primary_CosMx	MNP-a/classical monocyte derived	Immune
+primary_CosMx	Mast cell	Immune
+primary_CosMx	MNP-b/non-classical monocyte derived	Immune
+primary_CosMx	Indistinct intercalated cell	Other epithelial
+primary_CosMx	CD8 T cell	Immune
+primary_CosMx	Peritubular capillary endothelium 1	Endothelial
+primary_CosMx	Proximal tubule	Other epithelial
+primary_CosMx	MNP-d/Tissue macrophage	Immune
+primary_CosMx	Type B intercalated cell	Other epithelial
+primary_CosMx	Neutrophil	Immune
+primary_CosMx	Transitional urothelium	Other epithelial

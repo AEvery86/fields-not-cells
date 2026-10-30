@@ -1,0 +1,51 @@
+{
+ "design_effect": {
+  "combos": 984,
+  "max_rel_diff": 5.551115123125783e-16,
+  "median_D_p1pct": 15.108963574551225
+ },
+ "false_positive_DKD_labels": {
+  "cell_level_independent": 0.8752747252747253,
+  "cell_level_A3": 0.8677884615384616,
+  "indiv_wilcoxon_independent_3cats": 0.038461538461538464,
+  "indiv_wilcoxon_A3": 0.038461538461538464
+ },
+ "interval_coverage_k3": {
+  "GSE325587": {
+   "independent": {
+    "wilson": 0.265,
+    "ratio_t": 0.93,
+    "quasibin": 0.9425
+   },
+   "A4": {
+    "wilson": 0.274,
+    "ratio_t": 0.924,
+    "quasibin": 0.938
+   }
+  },
+  "GSE211785": {
+   "independent": {
+    "wilson": 0.34875,
+    "ratio_t": 0.895,
+    "quasibin": 0.92125
+   },
+   "A4": {
+    "wilson": 0.369,
+    "ratio_t": 0.927,
+    "quasibin": 0.936
+   }
+  },
+  "Lupus": {
+   "independent": {
+    "wilson": 0.34375,
+    "ratio_t": 0.93,
+    "quasibin": 0.9412499999999999
+   },
+   "A4": {
+    "wilson": 0.317,
+    "ratio_t": 0.922,
+    "quasibin": 0.941
+   }
+  }
+ }
+}

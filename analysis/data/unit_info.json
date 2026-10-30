@@ -1,0 +1,100 @@
+[
+  {
+    "tissue": "Control1",
+    "fov": 25,
+    "cells": 26112,
+    "immune_reference": 0.01753982843137255,
+    "patient": "Control1"
+  },
+  {
+    "tissue": "Control2",
+    "fov": 26,
+    "cells": 77004,
+    "immune_reference": 0.007311308503454366,
+    "patient": "Control2"
+  },
+  {
+    "tissue": "Control3",
+    "fov": 95,
+    "cells": 130220,
+    "immune_reference": 0.01412225464598372,
+    "patient": "Control3"
+  },
+  {
+    "tissue": "Control4",
+    "fov": 10,
+    "cells": 10532,
+    "immune_reference": 0.01509684770224079,
+    "patient": "Control4"
+  },
+  {
+    "tissue": "SLE1",
+    "fov": 16,
+    "cells": 18784,
+    "immune_reference": 0.03950170357751278,
+    "patient": "SLE1"
+  },
+  {
+    "tissue": "SLE2",
+    "fov": 8,
+    "cells": 12926,
+    "immune_reference": 0.03125483521584404,
+    "patient": "SLE2"
+  },
+  {
+    "tissue": "SLE3",
+    "fov": 12,
+    "cells": 27247,
+    "immune_reference": 0.062282086101222156,
+    "patient": "SLE3"
+  },
+  {
+    "tissue": "SLE4",
+    "fov": 13,
+    "cells": 49093,
+    "immune_reference": 0.06465280182510745,
+    "patient": "SLE4"
+  },
+  {
+    "tissue": "SLE5",
+    "fov": 13,
+    "cells": 27795,
+    "immune_reference": 0.03482640762727109,
+    "patient": "SLE5"
+  },
+  {
+    "tissue": "SLE6",
+    "fov": 18,
+    "cells": 60740,
+    "immune_reference": 0.028547909120842936,
+    "patient": "SLE6"
+  },
+  {
+    "tissue": "SLE7",
+    "fov": 7,
+    "cells": 11839,
+    "immune_reference": 0.10524537545400794,
+    "patient": "SLE7"
+  },
+  {
+    "tissue": "SLE8.1",
+    "fov": 8,
+    "cells": 16025,
+    "immune_reference": 0.07076443057722309,
+    "patient": "SLE8"
+  },
+  {
+    "tissue": "SLE8.2",
+    "fov": 17,
+    "cells": 30671,
+    "immune_reference": 0.0484822796778716,
+    "patient": "SLE8"
+  },
+  {
+    "tissue": "SLE8.3",
+    "fov": 11,
+    "cells": 33404,
+    "immune_reference": 0.04310860974733565,
+    "patient": "SLE8"
+  }
+]

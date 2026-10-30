@@ -1,0 +1,3 @@
+source	cell_chisq_q	field_wilcoxon_q	field_quasibin_q	field_cluster_q	indiv_wilcoxon_q	indiv_quasibin_q	categories
+GSE325587	18	16	12	2	0	3	21
+Lupus	25	18	18	7	3	6	25
