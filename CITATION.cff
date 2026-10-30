@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Fields, not cells: code, derived data and fovplan"
+version: 1.0.0
+date-released: 2026-10-30
+license: MIT
+authors:
+  - family-names: "Lv"
+    given-names: "Xiao"
+  - family-names: "Yang"
+    given-names: "Liuyi"
+repository-code: "https://github.com/AEvery86/fields-not-cells"
+keywords: [spatial transcriptomics, multiplexed imaging, design effect, sampling design, field of view]

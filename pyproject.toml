@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fovplan"
+version = "0.1.0"
+description = "Plan the number of fields of view needed to estimate cell-type proportions in spatial omics"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Xiao Lv"}, {name = "Liuyi Yang"}]
+dependencies = ["numpy>=1.20", "pandas>=1.2", "scipy>=1.6"]
+
+[project.scripts]
+fovplan = "fovplan.core:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

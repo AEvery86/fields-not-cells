@@ -1,0 +1,6 @@
+field_id	Ascending vasa recta endothelium	B cell	CD4 T cell	CD8 T cell	Connecting tubule	Descending vasa recta endothelium	Distinct proximal tubule 1	Distinct proximal tubule 2	Epithelial progenitor cell	Fibroblast	Glomerular endothelium	Indistinct intercalated cell	MNP-a/classical monocyte derived	MNP-b/non-classical monocyte derived	MNP-c/dendritic cell	MNP-d/Tissue macrophage	Mast cell	Myofibroblast	NK cell	NKT cell	Neutrophil	Pelvic epithelium	Peritubular capillary endothelium 1	Peritubular capillary endothelium 2	Plasmacytoid dendritic cell	Podocyte	Principal cell	Proliferating Proximal Tubule	Proximal tubule	Thick ascending limb of Loop of Henle	Transitional urothelium	Type A intercalated cell	Type B intercalated cell
+FOV36	39	0	2	0	129	7	151	31	84	11	2	0	0	0	110	1	0	13	1	0	0	0	8	8	0	14	9	191	0	2	0	1	0
+FOV37	62	0	1	0	30	6	166	45	103	33	9	0	0	0	105	0	0	39	1	1	0	0	7	18	0	22	3	119	0	2	0	0	0
+FOV38	187	13	25	0	110	35	328	50	233	109	26	0	0	2	197	2	1	128	1	5	0	0	2	27	1	70	8	84	2	0	0	1	1
+FOV39	128	47	4	0	126	18	382	25	504	98	2	0	0	0	146	0	4	68	0	8	0	0	1	9	1	36	48	54	0	13	0	1	4
+FOV40	157	48	8	0	87	24	331	33	270	132	0	0	0	0	147	2	2	143	3	5	0	1	3	20	0	46	29	60	1	3	0	0	0
