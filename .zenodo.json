@@ -1,1 +1,29 @@
-{"title":"Fields, not cells: code, derived data and fovplan","upload_type":"software","description":"Analysis code, derived per-field data and the fovplan planning tool for the manuscript 'Fields, not cells: design effects, false discoveries and field-number planning for spatial cell-composition studies'.","creators":[{"name":"Lv, Xiao"},{"name":"Yang, Liuyi"}],"license":"mit","keywords":["spatial transcriptomics","multiplexed imaging","design effect","sampling design","field of view"],"version":"1.0.0"}
+{
+  "title": "Fields, not cells: code, derived data and fovplan",
+  "upload_type": "software",
+  "description": "Analysis code, derived per-field data and the fovplan planning tool for the manuscript 'Fields, not cells, determine precision and replication in spatial cell-composition studies'. Version 1.0.1 adds fovplan 0.2.0 (bisection search), a worked tutorial, the mixed-model and differential-abundance comparison with its R reference-package re-analysis, the planner benchmark and the design-choice analyses (field selection, precision target and pilot size, field size, annotation error).",
+  "creators": [
+    {
+      "name": "Lv, Xiao",
+      "affiliation": "Department of Nephrology, Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, China"
+    },
+    {
+      "name": "Zou, Yuanfang",
+      "affiliation": "Department of Nephrology, Shenzhen Hospital of Integrated Traditional Chinese and Western Medicine, Shenzhen, China"
+    },
+    {
+      "name": "Yang, Liuyi",
+      "affiliation": "Department of Nephrology, Shanghai Baoshan Hospital of Integrated Traditional Chinese and Western Medicine, Shanghai, China"
+    }
+  ],
+  "license": "mit",
+  "keywords": [
+    "spatial transcriptomics",
+    "multiplexed imaging",
+    "design effect",
+    "sampling design",
+    "field of view",
+    "study design"
+  ],
+  "version": "1.0.1"
+}
