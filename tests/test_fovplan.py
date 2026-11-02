@@ -29,3 +29,17 @@ def test_assurance_plan_is_more_conservative():
 def test_naive_plan_matches_binomial_formula():
     k = fovplan.naive_required_fields(0.1, 1000, 0.02)
     assert k == int(np.ceil(1.96 ** 2 * 0.09 / 0.02 ** 2 / 1000))
+
+
+def test_bisection_search_matches_exhaustive_scan():
+    from scipy import stats
+    rng = np.random.default_rng(3)
+    for _ in range(300):
+        p = rng.uniform(0.005, 0.5); nbar = rng.uniform(100, 2000); D = np.exp(rng.uniform(0, 5))
+        Se2 = D * nbar * p * (1 - p); M = None if rng.random() < 0.5 else int(rng.integers(3, 300))
+        ks = np.arange(2, 5001) if M is None else np.arange(2, M + 1)
+        hw = fovplan.half_width(ks, p, Se2, nbar, M)
+        ok = np.nonzero(hw <= 0.25 * p)[0]
+        expected = int(ks[ok[0]]) if len(ok) else np.inf
+        got = fovplan.required_fields(p, Se2, nbar, 0.25, relative=True, M=M, kmax=5000)
+        assert got == expected

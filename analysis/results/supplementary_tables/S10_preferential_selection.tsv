@@ -1,0 +1,6 @@
+	Median TV, 3 fields	Median TV, 10 fields	|Relative bias| %, other types (3 fields)	|Relative bias| %, enriched type (3 fields)	Coverage %, other types (3 fields)	Coverage %, enriched type (3 fields)	fovplan 90% within ±25%, other types	fovplan 90% within ±25%, enriched type
+Simple random	0.191	0.088	8.296	8.315	91.667	89.333	95.694	92.079
+Systematic (serpentine)	0.164	0.072	7.247	7.927	94.0	90.333	97.588	95.697
+Interior fields only	0.168	0.087	15.369	20.341	92.0	88.667	89.512	70.0
+Cell-dense fields preferred	0.159	0.098	11.703	11.576	93.0	88.667	94.602	90.364
+Structure-enriched	0.437	0.296	67.038	162.289	67.333	18.0	84.848	29.664

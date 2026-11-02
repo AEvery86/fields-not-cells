@@ -28,7 +28,7 @@ import argparse, sys
 import numpy as np, pandas as pd
 from scipy import stats
 
-__version__ = '0.1.0'
+__version__ = '0.2.0'
 
 
 def estimate(counts):
@@ -62,16 +62,31 @@ def half_width(k, p, Se2, nbar, M=None, conf=0.95):
 
 
 def required_fields(p, Se2, nbar, target, relative=False, M=None, conf=0.95, kmax=100000):
-    """Smallest k >= 2 with expected half-width <= target (absolute or relative to p)."""
+    """Smallest k >= 2 with expected half-width <= target (absolute or relative to p).
+    The half-width decreases monotonically in k, so the search uses exponential bracketing and
+    bisection (identical result to an exhaustive scan over k = 2..kmax, in O(log k) evaluations)."""
     if not (np.isfinite(Se2) and 0 < p < 1):
         return np.nan
     h = target * p if relative else target
-    ks = np.arange(2, kmax + 1)
-    if M is not None:
-        ks = ks[ks <= M]
-    hw = half_width(ks, p, Se2, nbar, M, conf)
-    ok = np.nonzero(hw <= h)[0]
-    return int(ks[ok[0]]) if len(ok) else np.inf
+    upper = kmax if M is None else min(kmax, int(M))
+    if upper < 2:
+        return np.inf
+    hw = lambda k: float(half_width(k, p, Se2, nbar, M, conf))
+    if hw(2) <= h:
+        return 2
+    lo, hi = 2, 4
+    while hi < upper and hw(hi) > h:
+        lo, hi = hi, hi * 2
+    hi = min(hi, upper)
+    if hw(hi) > h:
+        return np.inf
+    while hi - lo > 1:
+        mid = (lo + hi) // 2
+        if hw(mid) <= h:
+            hi = mid
+        else:
+            lo = mid
+    return int(hi)
 
 
 def naive_required_fields(p, nbar, target, relative=False, conf=0.95):

@@ -1,0 +1,5 @@
+perturbation	GSE211785	GSE325587	Human colon	Human small intestine	Lupus	FPR % cell_chisq	FPR % field_wilcoxon	FPR % field_quasibin	FPR % field_cluster	FPR % indiv_wilcoxon	FPR % indiv_quasibin	within ±25% fovplan	within ±25% fovplan90
+none	41.1	16.0	25.4	31.4	12.6	87.5	46.0	45.1	12.5	3.6	6.2	92.1	97.4
+random 5%	37.4	14.2	23.1	28.4	11.7	87.4	47.5	46.5	12.4	3.6	6.1	92.4	97.5
+random 10%	33.8	13.5	20.9	25.5	10.5	87.6	48.8	47.8	12.6	3.6	6.2	92.7	97.7
+field-varying 0-20%	34.2	13.1	21.0	25.6	10.2	87.1	48.4	47.9	12.5	3.6	6.2	92.8	97.8

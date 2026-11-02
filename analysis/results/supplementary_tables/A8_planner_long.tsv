@@ -1,0 +1,46 @@
+source	method	share	k	infeasible
+human colon	bootstrap	0.8051198075677677	15.0	0.0
+human colon	cellcount	0.37608148361679633	2.0	0.03719122953094643
+human colon	fovplan	0.8466537144971783	17.0	0.0
+human colon	fovplan80	0.9236969192339717	23.0	0.0
+human colon	fovplan90	0.9479988898140438	26.0	0.0
+human kidney (GSE211785)	bootstrap	0.8250980392156864	15.0	0.0
+human kidney (GSE211785)	cellcount	0.3804901960784313	1.0	0.0
+human kidney (GSE211785)	fovplan	0.8986666666666667	21.0	0.0
+human kidney (GSE211785)	fovplan80	0.9604117647058824	43.0	0.0
+human kidney (GSE211785)	fovplan90	0.9764901960784313	59.0	0.0
+human kidney (GSE325587)	bootstrap	0.8338805970149255	5.0	0.0
+human kidney (GSE325587)	cellcount	0.578089552238806	1.0	0.0
+human kidney (GSE325587)	fovplan	0.9276069651741293	7.0	0.0
+human kidney (GSE325587)	fovplan80	0.965318407960199	9.0	0.0
+human kidney (GSE325587)	fovplan90	0.9762736318407961	10.0	0.0
+human kidney (Lupus)	bootstrap	0.8506876640419947	4.0	0.0
+human kidney (Lupus)	cellcount	0.6266348954196452	1.0	0.008661417322834646
+human kidney (Lupus)	fovplan	0.9386141732283464	7.0	0.0
+human kidney (Lupus)	fovplan80	0.9700839895013124	9.0	0.0
+human kidney (Lupus)	fovplan90	0.9796587926509187	10.0	0.0
+human small intestine	bootstrap	0.8266266105881567	17.0	0.0
+human small intestine	cellcount	0.34060754332313964	2.0	0.017624674544362107
+human small intestine	fovplan	0.8680178917150677	19.0	0.0
+human small intestine	fovplan80	0.9394365444956272	26.0	0.0
+human small intestine	fovplan90	0.9598170772414715	29.0	0.0
+mouse kidney	bootstrap	0.8229607843137255	19.0	0.0
+mouse kidney	cellcount	0.30670658682634727	1.0	0.01764705882352941
+mouse kidney	fovplan	0.8863333333333334	23.0	0.0
+mouse kidney	fovplan80	0.9531764705882353	33.0	0.0
+mouse kidney	fovplan90	0.9729411764705883	37.0	0.0
+simulated (sigma = 0.5)	bootstrap	0.8598	6.0	0.0
+simulated (sigma = 0.5)	cellcount	0.4892666666666666	1.0	0.0
+simulated (sigma = 0.5)	fovplan	0.9561333333333333	10.0	0.0
+simulated (sigma = 0.5)	fovplan80	0.987	18.0	0.0
+simulated (sigma = 0.5)	fovplan90	0.9938666666666667	25.0	0.0
+simulated (sigma = 1.0)	bootstrap	0.8488666666666667	17.0	0.0
+simulated (sigma = 1.0)	cellcount	0.2516	1.0	0.0
+simulated (sigma = 1.0)	fovplan	0.912	22.0	0.0
+simulated (sigma = 1.0)	fovplan80	0.9782	39.0	0.0
+simulated (sigma = 1.0)	fovplan90	0.9922666666666666	49.0	0.0
+simulated (sigma = 1.5)	bootstrap	0.8251999999999999	26.0	0.0
+simulated (sigma = 1.5)	cellcount	0.19079999999999997	1.0	0.0
+simulated (sigma = 1.5)	fovplan	0.8800666666666666	32.0	0.0
+simulated (sigma = 1.5)	fovplan80	0.9658666666666665	51.0	0.0
+simulated (sigma = 1.5)	fovplan90	0.9836666666666666	60.5	0.0

@@ -1,0 +1,31 @@
+{
+  "source": "GSE325587",
+  "tissue": "Ctrl_1",
+  "seed": 20261071,
+  "results": {
+    "relative": {
+      "cell_type": "immune",
+      "p": 0.030603972436157277,
+      "pilot_fields": 5,
+      "nbar": 986.8,
+      "Se2": 55.34445877311355,
+      "D": 1.8904533549875335,
+      "rho": 0.0009032799299934404,
+      "fields_required": 7,
+      "fields_required_assurance90": 17,
+      "fields_if_cells_independent": 2
+    },
+    "absolute": {
+      "cell_type": "immune",
+      "p": 0.030603972436157277,
+      "pilot_fields": 5,
+      "nbar": 986.8,
+      "Se2": 55.34445877311355,
+      "D": 1.8904533549875335,
+      "rho": 0.0009032799299934404,
+      "fields_required": 3,
+      "fields_required_assurance90": 5,
+      "fields_if_cells_independent": 1
+    }
+  }
+}
